@@ -1,0 +1,84 @@
+1
+dictionary: "" 
+search: "x"
+return: ""
+
+2
+dictionary: "a=1" 
+search: x
+return: ""
+
+3
+dictionary: "xr=2" 
+search: x
+return: ""
+
+4
+dictionary: "rx=2" 
+search: "x"
+return: ""
+
+5
+dictionary: "d=x" 
+search: "x"
+return: "1"
+
+6
+dictionary: "x=1" 
+search: "x"
+return: "1"
+
+7
+dictionary: "x=x" 
+search: "x"
+return: "x"
+
+8
+dictionary: "x=1|a=2" 
+search: x
+return: "1"
+
+9
+dictionary: "x=1|a=2|c=3" 
+search: x
+return: "1"
+
+10
+dictionary: "a=2|x=1" 
+search: x
+return: "1"
+
+11
+dictionary: "a=2|c=3|x=1" 
+search: x
+return: "1"
+
+12
+dictionary: "a=2|x=1|y=3" 
+search: x
+return: "1"
+
+13
+dictionary: "d=4|a=2|x=1|rr=3|y=3" 
+search: x
+return: "1"
+
+14
+dictionary: "a=2|x=1|xx=3" 
+search: x
+return: "1"
+
+15
+dictionary: "xa=2|x=1|xx=3" 
+search: x
+return: "1"
+
+16
+dictionary: "xa=2|sx=1|xx=3|x=1" 
+search: x
+return: "1"
+
+17
+dictionary: "x=1|sx=1|xx=3|xa=1" 
+search: x
+return: "1"
